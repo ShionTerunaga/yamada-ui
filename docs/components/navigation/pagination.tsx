@@ -31,7 +31,7 @@ export const Pagination = memo(
         mt="xl"
         {...rest}
       >
-        {prevDocument ? <PaginationItem {...prevDocument} isPrev /> : <Box />}
+        {prevDocument ? <PaginationItem {...prevDocument} isPrev /> : null}
 
         {nextDocument ? (
           <PaginationItem {...nextDocument} alignItems="flex-end" />
