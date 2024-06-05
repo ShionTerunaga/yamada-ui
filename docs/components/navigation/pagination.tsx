@@ -35,9 +35,7 @@ export const Pagination = memo(
 
         {nextDocument ? (
           <PaginationItem {...nextDocument} alignItems="flex-end" />
-        ) : (
-          <Box />
-        )}
+        ) : null}
       </Grid>
     )
   }),
